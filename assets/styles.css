@@ -1,0 +1,53 @@
+body {
+	background-image: url("/assets/background.jpg");
+}
+
+.display {
+	font-family: "Press Start 2P", cursive;
+	color: white;
+	text-align: center;
+	position: relative;
+	top: -25px;
+}
+
+.board {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 560px;
+	height: 300px;
+	background-color: black;
+	box-shadow: black 0px 22px 70px 4px;
+	border-radius: 10px;
+}
+
+.block {
+	position: absolute;
+	width: 100px;
+	height: 20px;
+	background: linear-gradient(
+		145deg,
+		hsla(183, 100%, 75%, 0.2),
+		hsla(183, 100%, 75%, 0)
+	);
+	border: 1px solid hsl(240, 32%, 40%);
+	border-radius: 5px;
+}
+
+.user {
+	position: absolute;
+	width: 100px;
+	height: 20px;
+	background-color: hsl(240, 32%, 40%);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.ball {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: yellow;
+}
